@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PruebaSainet</string>
+    <string name="facebook_app_id">496656827199715</string>
+    <string name="google_maps_api_key">AIzaSyCIQu0Exsogme2W8w9ZXvcq20IloMFg-Ak</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_correo">Correo</string>
+    <string name="hint_descripcion_lugar">Descripcion</string>
+    <string name="hint_confirmar_correo">Confirmar correo</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_confirmar_pass">Confirmar contraseña</string>
+    <string name="texto_cuenta_existente">Si ya tienes una cuenta,</string>
+    <string name="texto_inicia_sesion"><u>Inicia sesión.</u></string>
+    <string name="texto_cuenta_no_existente">Si aún no tienes una cuenta,</string>
+    <string name="texto_registrate"><u>Registrate.</u></string>
+    <string name="texto_btn_registrarse">Registrarse</string>
+    <string name="texto_btn_login">Ingresar</string>
+    <string name="texto_btn_crear_lugar">Crear</string>
+    <string name="texto_item_menu_crear_lugar">Crear lugar</string>
+    <string name="texto_item_menu_mis_lugares">Mis lugares</string>
+    <string name="texto_item_menu_configuracion">Configuración</string>
+    <string name="texto_item_menu_salir">Cerrar sesión</string>
+</resources>

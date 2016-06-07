@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/id_txt_nombre_lugar"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Nombre" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:id="@+id/id_img_lugar"
+            android:scaleType="centerInside"
+            android:src="@drawable/logo_sainet_menu"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/id_txt_latitud_lugar"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Latitud" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:id="@+id/id_txt_longitud_lugar"
+            android:gravity="center"
+            android:text="Longitud" />
+    </LinearLayout>
+</LinearLayout>

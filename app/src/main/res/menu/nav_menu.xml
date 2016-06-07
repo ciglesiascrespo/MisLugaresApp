@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/id_item_crear_lugar"
+            android:checked="true"
+            android:icon="@drawable/ic_tooltip_outline_plus_grey600_24dp"
+            android:title="@string/texto_item_menu_crear_lugar" />
+        <item
+            android:id="@+id/id_item_mis_lugares"
+            android:icon="@drawable/ic_google_maps_grey600_24dp"
+            android:title="@string/texto_item_menu_mis_lugares" />
+
+
+
+        <!-- Sección de configuración -->
+        <item
+            android:id="@+id/configuration_section"
+            android:title="@string/texto_item_menu_configuracion">
+            <menu>
+                <item
+                    android:id="@+id/id_item_salir"
+                    android:icon="@drawable/ic_logout_variant_grey600_24dp"
+                    android:title="@string/texto_item_menu_salir" />
+            </menu>
+        </item>
+    </group>
+
+</menu>
